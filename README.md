@@ -66,9 +66,9 @@ Both the account and funds required to operate on the blockchain are housed in a
 
 The most popular tool to use for creating and managing your Ethereum wallet is **Metamask**
 
-    - Site: https://metamask.io/
+- Site: https://metamask.io/
 
-Metamask is simply a free to use browser extension available on most of the popular browsers.
+Metamask is a free to use browser extension available on most popular browsers.
 
 ![Meta mask](./content/MetaMask.png "MetaMask")
 
@@ -76,7 +76,7 @@ Most Web3 websites (dApps) use .Js libraries that will automatically integrate w
 
 Here is a [tutorial](https://www.youtube.com/watch?v=tw-tQD0jztE&ab_channel=MoneyZG) on creating, funding, and using your Metamask Wallet.
 
-**IMPORTANT:** This and every tutorial will emphasize it, but never ever share your seed phrase that you used to create your wallet. Even if the CEO of Metamask himself asks you for it. Although some of the crypto theft you hear about comes from poorly written smart contracts, a large amount of scams come from phishing attempts where the scammer tricks people into providing this seed phrase. (Very common in the NFT gold rush with less technical folks being taken advantage of)
+**IMPORTANT:** This and every tutorial will emphasize it, but never ever share your seed phrase that you used to create your wallet WITH ANYONE. Even if the CEO of Metamask himself asks you for it. Although some of the crypto theft you hear about comes from poorly written smart contracts, a large amount of scams come from phishing attempts where the scammer tricks people into providing this seed phrase. (Very common in the NFT gold rush with less technical folks being taken advantage of)
 
 ### Steps to getting contract on the block chain
  1. Write code
@@ -95,4 +95,17 @@ Here is a [tutorial](https://www.youtube.com/watch?v=tw-tQD0jztE&ab_channel=Mone
 
 ## Test Networks
 ### Options
+ - Rinkeby
 ### Faucets
+Faucets are sites you can visit to receive free testing currency for test networks
+
+## How to make a website interact with the block chain
+
+### Libraries
+ - web3.js
+    - [Repo](https://github.com/ChainSafe/web3.js#readme)
+    - [Documentation](https://web3js.readthedocs.io/en/v1.7.3/)
+ - ethers.js
+    - [Repo](https://github.com/ethers-io/ethers.js#readme)
+    - [Documentation](https://docs.ethers.io/v5/)
+ - Comparison and example usage [here](https://www.youtube.com/watch?v=DdyXocqnCxE&ab_channel=DappUniversity)

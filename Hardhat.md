@@ -1,0 +1,1 @@
+- Deploy to Test/Main network: [tutorial](https://www.youtube.com/watch?v=Uvphp4aVeDg&ab_channel=MoralisWeb3)
