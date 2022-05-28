@@ -52,6 +52,31 @@ All three have roughly the same user popularity percentages, are well documented
     - can compile and deploy to test nets and main net!
 
 - Visual Studio Code
+    - Good option for Truffle or Hardhat projects
+    - There are a variety of useful plugins for solidity development including specific ones for Truffle/Hardhat
+
+### Wallets
+Every time you interact with a smart contract including deploying it, you need to pay a gas fee.
+
+On the main net its paid in Ethereum and  on test networks its fake currency.
+
+Furthermore all interactions with a contract are made by an **Account** which acts as a "user" for the application.
+
+Both the account and funds required to operate on the blockchain are housed in a **Wallet**
+
+The most popular tool to use for creating and managing your Ethereum wallet is **Metamask**
+
+    - Site: https://metamask.io/
+
+Metamask is simply a free to use browser extension available on most of the popular browsers.
+
+![Meta mask](./content/MetaMask.png "MetaMask")
+
+Most Web3 websites (dApps) use .Js libraries that will automatically integrate with Metamask and handle all communication between your wallet and the blockchain.
+
+Here is a [tutorial](https://www.youtube.com/watch?v=tw-tQD0jztE&ab_channel=MoneyZG) on creating, funding, and using your Metamask Wallet.
+
+**IMPORTANT:** This and every tutorial will emphasize it, but never ever share your seed phrase that you used to create your wallet. Even if the CEO of Metamask himself asks you for it. Although some of the crypto theft you hear about comes from poorly written smart contracts, a large amount of scams come from phishing attempts where the scammer tricks people into providing this seed phrase. (Very common in the NFT gold rush with less technical folks being taken advantage of)
 
 ### Steps to getting contract on the block chain
  1. Write code
@@ -62,8 +87,12 @@ All three have roughly the same user popularity percentages, are well documented
  6. Finally Deploy to Main net
 
  ### View your contract on the block chain
- You can view important details about deployed Smart Contracts or even individual Wallet Accounts such as Ether balances and transaction histories through tools. This includes Test Networks! The most popular for the Ethereum network is Etherscan.
+ You can view important details about deployed Smart Contracts or even individual Wallet Accounts such as Ether balances and transaction histories through tools called Block Explorers. This includes Test Networks! The most popular for the Ethereum network is Etherscan.
  - Etherscan
     - Main Net: https://etherscan.io/
     - Rinkeby Test Network: https://rinkeby.etherscan.io/
 
+
+## Test Networks
+### Options
+### Faucets
