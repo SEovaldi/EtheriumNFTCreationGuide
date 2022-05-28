@@ -26,7 +26,7 @@ There are a million guides out there. Writting my own to cement my own understan
 ### Frameworks
 Most common Frameworks are **Truffle**, **Hardhat**, and **Remix**
 
-**Truffle** and **Hardhat** are libraries that can be installed globally on your computer via package managers. **See included .md files with Truffle and Hardhat guides.**
+**Truffle** and **Hardhat** are node.js libraries that can be installed via package managers. **See included .md files with Truffle and Hardhat guides.**
 
 **Remix** is an all in one framework delivered through an internet browser.
 
@@ -49,12 +49,15 @@ All three have roughly the same user popularity percentages, are well documented
     - [Solid Tutorial](https://www.youtube.com/watch?v=bZKVfXmzRDw&ab_channel=ArturChmaro)
     - Very user friendly and great for beginners
     - Supported right in your web browser so no additional tools needed
-    - can compile and deploy to test nets and main net!
 
 - Visual Studio Code
     - Good option for Truffle or Hardhat projects
     - There are a variety of useful plugins for solidity development including specific ones for Truffle/Hardhat
 
+### My Current Favorite Combo
+ - HardHat + Visual Studio Code
+    -
+    
 ### Wallets
 Every time you interact with a smart contract including deploying it, you need to pay a gas fee.
 
@@ -72,7 +75,7 @@ Metamask is a free to use browser extension available on most popular browsers.
 
 ![Meta mask](./content/MetaMask.png "MetaMask")
 
-Most Web3 websites (dApps) use .Js libraries that will automatically integrate with Metamask and handle all communication between your wallet and the blockchain.
+Most Web3 websites (dApps) use node.js libraries that will automatically integrate with Metamask and handle all communication between your wallet and the blockchain.
 
 Here is a [tutorial](https://www.youtube.com/watch?v=tw-tQD0jztE&ab_channel=MoneyZG) on creating, funding, and using your Metamask Wallet.
 
