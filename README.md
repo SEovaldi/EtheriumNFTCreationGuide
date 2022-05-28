@@ -3,7 +3,7 @@ A step by step on the creation of NFTS as well as some answers to common develop
 
 There are a million guides out there. Writting my own to cement my own understanding
 
-## Questions
+## Questions to answer
 - How to create a new project
 - How to unit test
 - How to deploy to a test network
@@ -24,13 +24,27 @@ There are a million guides out there. Writting my own to cement my own understan
 
 ## Tooling
 ### Frameworks
-Most common Frameworks are **Truffle** and **Hardhat**
+Most common Frameworks are **Truffle**, **Hardhat**, and **Remix**
 
-Both are libraries that can be installed globally on your computer via package managers. See included .md files with Truffle and Hardhat guides.
+Truffle and Hardhat are libraries that can be installed globally on your computer via package managers. **See included .md files with Truffle and Hardhat guides.**
+
+Remix is an all in one framework delivered through an internet browser.
+
+The community's difficulty curve consensus from easiest to hardest seems to be
+ - Remix => Truffle => Hardhat
+
+Where Remix is great for quickly prototyping out a smart contract or for new people learning to explore concepts
+
+And Truffle/Hardhat are better when building out more complex contracts as they include useful tools that allow for debugging, the ever powerful **console.log()**, and more. Although all three have plugin support that can fill in the holes of missing functionality.
+
+- Heres a good [article](https://theblockchainguy.dev/hardhat-vs-truffle-vs-remix) that outlines the differences further
+
+All three have roughly the same user popularity percentages and all three can be used for most use cases so it really comes down to preference.
 
 ### IDEs
 - Remix
     - [Link To Page](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js)
+    - [Solid Tutorial](https://www.youtube.com/watch?v=bZKVfXmzRDw&ab_channel=ArturChmaro)
     - Very user friendly and great for beginners
     - Supported right in your web browser so no additional tools needed
     - can compile and deploy to test nets and main net!
@@ -42,4 +56,12 @@ Both are libraries that can be installed globally on your computer via package m
  2. Compile code
  3. Compiled code is stored in Project Artifacts
  4. Test Code, unit tests reference compiled code in Artifacts
+ 5. Deploy code to actual test networks such as Rinkeby and validate
+ 6. Finally Deploy to Main net
+
+ ### View your contract on the block chain
+ You can view important details about deployed Smart Contracts or even individual Wallet Accounts such as Ether balances and transaction histories through tools. This includes Test Networks! The most popular for the Ethereum network is Etherscan.
+ - Etherscan
+    - Main Net: https://etherscan.io/
+    - Rinkeby Test Network: https://rinkeby.etherscan.io/
 
