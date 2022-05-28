@@ -26,20 +26,22 @@ There are a million guides out there. Writting my own to cement my own understan
 ### Frameworks
 Most common Frameworks are **Truffle**, **Hardhat**, and **Remix**
 
-Truffle and Hardhat are libraries that can be installed globally on your computer via package managers. **See included .md files with Truffle and Hardhat guides.**
+**Truffle** and **Hardhat** are libraries that can be installed globally on your computer via package managers. **See included .md files with Truffle and Hardhat guides.**
 
-Remix is an all in one framework delivered through an internet browser.
+**Remix** is an all in one framework delivered through an internet browser.
 
 The community's difficulty curve consensus from easiest to hardest seems to be
- - Remix => Truffle => Hardhat
+ - **Remix => Truffle => Hardhat**
 
-Where Remix is great for quickly prototyping out a smart contract or for new people learning to explore concepts
+Where Remix is great for quickly prototyping out a smart contract or for newer people learning and exploring concepts
 
-And Truffle/Hardhat are better when building out more complex contracts as they include useful tools that allow for debugging, the ever powerful **console.log()**, and more. Although all three have plugin support that can fill in the holes of missing functionality.
+And Truffle/Hardhat are better when building out more complex contracts as they include useful tools that allow for debugging, the ever powerful **console.log()**, and more. 
+
+All three have plugin support that can fill in the holes of missing functionality.
 
 - Heres a good [article](https://theblockchainguy.dev/hardhat-vs-truffle-vs-remix) that outlines the differences further
 
-All three have roughly the same user popularity percentages and all three can be used for most use cases so it really comes down to preference.
+All three have roughly the same user popularity percentages, are well documented, and can used for most use cases so it really comes down to preference.
 
 ### IDEs
 - Remix
