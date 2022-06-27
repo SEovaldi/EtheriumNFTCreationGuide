@@ -21,6 +21,7 @@ There are a million guides out there. Writting my own to cement my own understan
 ### Solidity
 - Offical Documentation: https://docs.soliditylang.org/en/v0.8.14/#
 - Best Tutorial: https://cryptozombies.io/
+- Another solid one: https://hackingthemarkets.com/
 
 ## Tooling
 ### Frameworks
@@ -54,7 +55,7 @@ All three have roughly the same user popularity percentages, are well documented
     - Good option for Truffle or Hardhat projects
     - There are a variety of useful plugins for solidity development including specific ones for Truffle/Hardhat
 
-### My Current Favorite Combo
+### My Current Favorite Combo:
  - HardHat + Visual Studio Code
     -
     
